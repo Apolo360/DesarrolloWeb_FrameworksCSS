@@ -1,0 +1,49 @@
+.logo-cabecera img{
+	height: 100%;
+	max-height: 100px;
+	margin-top: 0;
+}
+
+.barra-superior{
+	height: 10rem;
+	background-color: coral;
+}
+
+.container{
+	background-color: #212F3D;
+}
+
+p{
+	color: rgb(250, 219, 216);
+}
+
+article h3{
+
+	color: #F4D03F;
+}
+
+img[src*="icono"]{
+	width: 30px;
+	border-radius: 15px;
+	margin: 5px;
+}
+
+ul{
+	list-style-type: none;
+	overflow: hidden;
+}
+li{
+	float: left;
+}
+li a{
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 21px;
+}
+ .select{
+ 	color: crimson;
+ 	background: #F4D03F;
+ 	border: 2px solid #D5DBDB;
+ }
+

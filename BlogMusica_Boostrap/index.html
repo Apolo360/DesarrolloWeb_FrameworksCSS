@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=1.0, initial-scale=1">
+	<link rel="stylesheet" href="css/estilos.css">
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+	<title>Blog de música con framework Boostrap</title>
+</head>
+<body class="container">
+	<div class="row barra-superior">
+		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 logo-cabecera">
+			<img src="img/header_logo.png" title="logo_blog_musica">
+		</div>
+		<div class="row col-lg-8 col-sm-6 col-xs-6 col-lg-pull-1">
+			<ul>
+				<li><a href="#"><img src="img/icono_faceb.png"></a></li>
+				<li><a href="#"><img src="img/icono_instag.png"></a></li>
+				<li><a href="#"><img src="img/icono_twitter.png"></a></li>
+				<li><a href="#"><img src="img/icono_yout.png"></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12 col-md-12 col-lg-12">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header">
+				<ul class="nav nav-pills nav-justified">
+					<li><a class="select" href="#">inicio</a></li>
+					<li><a class="select" href="#">artistas</a></li>
+					<li><a class="select" href="#">grupos</a></li>
+					<li><a class="select" href="#">top 10</a></li>
+					<li><a class="select" href="#">letras</a></li>
+					<li><a class="select" href="#">acordes</a></li>
+				</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+			<!--1ra fila interior dentro de la columna principal que la contiene donde va la info-->
+				<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 titulo-bitacora">
+					<article>
+						<h3>El ritmo en un Videoclip</h3>
+						<p class="lead text-justify">
+							Más que el propio audio o ritmo de la canción lo que más influye para mí, es la parte del videoclip donde se mezclan todos los puntos a favor del ritmo y también donde se cuenta e interpreta una historia ya sea por el mismo artista o terceros; y es ahí donde influye si va a tener una buena posición en los lsitados de las plataformas, o por el contrario terminará y llegará hasta eso.<br>La coreografía es para mí el punto de enfoque de todas las miradas ya que hace parte del propio ritmo y cuerpo 
+						</p>
+												
+						<div class="form-group">
+							<textarea name="comentario" rows="2" cols="60" placeholder="comentario" class="form-control"></textarea>
+						</div>
+						<div class="form-group">
+							<input type="button" name="boton" value="enviar" class="btn btn-default">
+						</div>
+					</article>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<img src="img/XOXO.jpg" alt="imagen de 'Despacito'" width="100%" height="370px">
+				</div>
+
+				<div class="col-lg-3 col-md-3 hidden-xs hidden-sm">
+
+					<div class="input-group input-group-sm hidden-xs hidden-sm">
+						<span class="input-group-addon glyphicon glyphicon-search"></span>
+						<input type="text" class="form-control input-group-addon glyphicon glyphicon-search"
+						placeholder="Buscar por ...">
+					</div>
+
+					<div class="list-group">
+						<button type="button" class="list-group-item">Canciones del top 10</button>
+						<button type="button" class="list-group-item">Las más sonadas</button>
+						<button type="button" class="list-group-item">Géneros</button>
+						<button type="button" class="list-group-item">Artistas</button>
+						<button type="button" class="list-group-item">Grupos Latin</button>
+						<button type="button" class="list-group-item">premios </button>
+						<button type="button" class="list-group-item">Playlist</button>
+						<button type="button" class="list-group-item">Favoritos</button>
+						<button type="button" class="list-group-item">Album</button>
+					</div>
+				</div>
+			</div>	
+		</div>	
+		<div class="row">
+			<div class="col-lg-5 col-md-4 col-sm-12 col-xs-12">
+				<img src="img/public.jpg" alt="imagen musica" width="100%" height="320px">
+			</div>
+			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 titulo-bitacora">
+				<article>
+					<h3>Y Las Nuevas Series con Enfoque En Musicales</h3>
+					<p class="lead text-justify">
+						La nueva onda y que ha dado ya varios comienzos en la pantalla pequeña enfocada en musicales y coreografías se ha ido ampliando desde ya hace un tiempo, pero es en estos momentos en donde las grandes plataformas de tv estan metiendo en sus listas series y peliculas con ritmo y baile, claro esta que con mucha música, y nos es por nada que ya en casi cualquier plataforma de internet veamos series de variados temas pero dirigidos a cantantes, productores y grupos con vistas al baile y la coreografía.
+					</p>
+				
+
+					<div class="form-group">
+						<textarea name="comentario" rows="2" cols="60" placeholder="comentario" class="form-control">
+						</textarea>						
+					</div>
+					<div class="form-group">
+						<input type="button" value="enviar" class="btn btn-default">
+					</div>
+				</article>
+			</div>	
+		</div>						
+	</div>
+
+</div>
+
+</body>
+</html>

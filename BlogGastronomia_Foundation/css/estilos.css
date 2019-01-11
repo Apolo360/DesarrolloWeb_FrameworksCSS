@@ -1,0 +1,63 @@
+
+#body{
+	margin: 0;
+	background: url('../img/background.jpeg') left top repeat;
+}
+
+/* div{
+	border: 1px solid black;
+	padding: 3px;
+	font-size: 1em;
+} */
+
+.container{
+	margin: 10px;
+	padding: 0 5% 0 5%;
+ 	background: hsla(205, 100%, 15%, 0.55);
+}
+
+.image{
+	width: 100%;
+	-webkit-filter: drop-shadow(22px 10px 10px #D7DBDD);
+	filter: drop-shadow(5px 6px 10px #D7DBDD);
+}
+
+.lat-round{
+	border-radius: 5px 10px;
+	border: 1px dashed white;
+}
+
+.collot{
+	background: no !important;
+	text-decoration: underline;
+}
+
+h4{
+	padding-top: 20px;
+	color: #34495E;
+	text-align: center;
+}
+
+ul{
+	display: inline-block;
+	padding: 0.5rem 0;
+}
+
+li{
+	background: #FABA91;
+	list-style-type: none;
+	color: #E7EDF1;
+	margin: 5px;
+}
+
+ul li a:hover{
+	background: #CDD8DF;
+	color: #22699B;
+}
+
+.post_2{
+	text-align: justify;
+	width: 100%;
+	padding: 5px 45px 5px 45px;
+	background: rgb(239, 159, 50);
+}
